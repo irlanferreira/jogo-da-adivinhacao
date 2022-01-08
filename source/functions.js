@@ -17,11 +17,11 @@ function jogar(){
             botao.style.display = 'none'
         }else if(num > aleatorio){
             //Caso o valor deja maior do que a resposta certa
-            divresultado.innerHTML = '<p>O valor que foi gerado é menor.</p>'
+            divresultado.innerHTML = `<p>O valor que foi gerado é menor do que ${num}.</p>`
             tentativas --
         }else if(num < aleatorio){
             //Caso o valor seja menor do que a resposta certa
-            divresultado.innerHTML = '<p>O valor que foi gerado é maior.</p>'
+            divresultado.innerHTML = `<p>O valor que foi gerado é maior do que ${num}.</p>`
             tentativas --
         }
         if(num != aleatorio){
