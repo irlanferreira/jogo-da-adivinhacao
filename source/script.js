@@ -4,3 +4,4 @@ var divtentativas = document.querySelector('#tentativas')
 var divtentados = document.querySelector('#numerosinseridos')
 var tentativas = 10
 var botao = document.querySelector('#botao')
+var caixanum = document.querySelector('#num')

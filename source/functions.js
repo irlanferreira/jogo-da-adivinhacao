@@ -6,8 +6,7 @@ function reiniciar(){
     window.location.reload()
 }
 function jogar(){
-    document.querySelector('#num').focus()
-    let num = Number(document.querySelector('#num').value)
+    let num = Number(caixanum.value)
     //Validação do valor
     if(num >= 1 && num <= 100) {
         divresultado.style.display = 'block'
@@ -39,5 +38,6 @@ function jogar(){
         }else{
             alert('Você só pode inserir números de 1 a 100.')
         }
-    
+    caixanum.value = ''
+    caixanum.focus()
 }
