@@ -13,6 +13,28 @@
         <div class="tip">
             <p>O sistema irá gerar um número entre 1 a 100 aleatoriamente, tente adivinhar qual é.</p>
         </div>
+        <div id="divdificuldade">
+            <p>
+                Dificuldade:
+                <input type="radio" name="radificuldade" id="radfacil" onclick="deficuldade(0)">
+                <label for="radfacil">Fácil</label>
+                <input type="radio" name="radificuldade" id="radmedio" checked
+                onclick="deficuldade(1)">
+                <label for="radmedio">Médio</label>
+                <input type="radio" name="radificuldade" id="radificil"
+                onclick="deficuldade(2)"
+                >
+                <label for="radificil">Difícil</label>
+                <input type="radio" name="radificuldade" id="radhardcore" onclick="deficuldade(3)">
+                <label for="radhardcore" style="color: red;">Hardcore</label>
+            </p>
+            <div class="tip" style="width: 200px;">
+                <p>Fácil: 15 tentativas</p>
+                <p>Médio: 7 tentativas</p>
+                <p>Difícil: 4 tentativas</p>
+                <p>Hardcore: 2 tentativas</p>
+            </div>
+        </div>
         <p>Insira um número de 1 a 100: <input type="number" id="num" min="1" max="100">
         <input type="button" value="Ok" onclick="jogar()" id="botao"></p>
         <div id="tentativas">
