@@ -1,0 +1,40 @@
+body {
+    font: normal normal 1.2em Arial, Verdana, sans-serif;
+    background-color: #e9c46a;
+}
+main {
+    background-color: white;
+    border-radius: 4px;
+    max-width: 700px;
+    margin: auto;
+    padding: 5px;
+}
+div.tip {
+    background-color: #e9c56a5e;
+    border-radius: 4px;
+    padding: 5px;
+}
+div.tip p, div#resultado p {
+    margin: 0px;
+}
+div#tentativas {
+    font-size: 0.8em;
+    display: none
+}
+div#numerosinseridos {
+    width: fit-content;
+    background-color: #ff00004b;
+    padding: 3px;
+    border-radius: 3px;
+}
+div#resultado {
+    display: none;
+    padding: 1px;
+    border-radius: 3px;
+    text-align: center;
+    background-color: #ff00004b;
+    margin: 20px 0px;
+}
+div#resultado p {
+    margin: 10px 0px;
+}
