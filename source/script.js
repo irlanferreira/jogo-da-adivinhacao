@@ -9,3 +9,4 @@ var divdificuldade = document.querySelector('#divdificuldade')
 var dificuldade = document.getElementsByName('radificuldade')
 var tentativas = 7
 caixanum.focus()
+console.log(dificuldade)
