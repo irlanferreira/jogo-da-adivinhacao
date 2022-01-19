@@ -10,3 +10,5 @@ var dificuldade = document.getElementsByName('radificuldade')
 var tentativas = 7
 caixanum.focus()
 console.log(dificuldade)
+localStorage.setItem('menssagem', 'testando')
+alert(localStorage.getItem('menssagem'))
